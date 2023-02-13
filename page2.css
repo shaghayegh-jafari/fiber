@@ -1,0 +1,200 @@
+body,
+* {
+  font-family: "Inter", sans-serif;
+}
+.row h2{
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.row h5 {
+  font-weight: bold;
+   margin-bottom: 3rem; 
+  margin:0;
+}
+form label {
+  font-weight: bold;
+}
+form {
+  width: 90%;
+}
+.form-check-label {
+  font-weight: 500;
+}
+.form-check-label a {
+  color: #4d13d1;
+}
+.button {
+  background-color: #4d13d1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-size: smaller;
+  font-weight: bold;
+}
+form p {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+form p a {
+  color: #4d13d1;
+}
+
+.bg {
+  background-color: #5e22e4;
+  padding-top: 0;
+  padding-left: 2rem;
+  min-height: 650px;
+  margin-top: 0;
+}
+.background {
+  background: linear-gradient(to right, #ffff 50%, #5e22e4 50%);
+}
+
+.carousel {
+  margin-top: 7rem;
+  margin-left: 13rem;
+  width: 80%;
+  color: white;
+}
+
+.carousel-cell {
+  width: 100%;
+}
+
+.carousel-cell img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel:after {
+  content: "flickity";
+  display: none;
+}
+
+.flickity-page-dots li.dot {
+  background-color: white;
+}
+.text h3 {
+  text-align: center;
+  margin-top: 1rem;
+}
+.text p {
+  text-align: center;
+  color: #e5ddfd;
+}
+
+@media screen and (max-width: 576px) {
+  .background {
+    background: linear-gradient(white, white);
+  }
+  form {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .row h2{
+    margin:0 auto;
+    width: 60%;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+  .row h5 {
+    
+    font-weight: bold;
+    margin-bottom: 3rem;
+   
+  }
+
+
+
+  form label {
+    font-weight: bold;
+  }
+ 
+  .form-check-label {
+    font-weight: 500;
+  }
+  .form-check-label a {
+    color: #4d13d1;
+  }
+  .button {
+    background-color: #4d13d1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: smaller;
+    font-weight: bold;
+  }
+  form p {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 500;
+  }
+  form p a {
+    color: #4d13d1;
+  }
+
+
+  .carousel {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .background {
+    background: linear-gradient(white, white);
+  }
+  form {
+    width: 60%;
+    margin: 0 auto;
+    
+  }
+
+  .row h2{
+    margin:0 auto;
+    width: 60%;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+  .row h5 {
+    
+    font-weight: bold;
+    margin-bottom: 3rem;
+   
+  }
+
+  .carousel {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .background {
+    background: linear-gradient(white, white);
+  }
+  form {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .row h2{
+    margin:0 auto;
+    width: 60%;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+  .row h5 {
+     margin-left: 9rem; 
+    
+    font-weight: bold;
+    margin-bottom: 3rem;
+   
+  }
+
+  .carousel {
+    display: none;
+  }
+}
